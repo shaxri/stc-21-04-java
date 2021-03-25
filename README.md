@@ -12,9 +12,9 @@ This repository is created for the tasks of Java Enterprise Edition course
 
 **task02**
 
-1. Change `private static final int n = 2;` into desired number of random numbers to be generated.
+1. Change `private static final int n = 2;` into desired number of random objectCollection to be generated.
 2. Run `main` method in `Main` class.
-3. See the square rootable numbers in console output.
+3. See the square rootable objectCollection in console output.
 
 **task03**
 1. Two kinds of algorithms were chosen are **Bubble Sort** and **Insertion Sort**.
