@@ -20,7 +20,7 @@ public class Main {
         int size = 2000;
         int probability = 2;
 
-        String path = "D:\\Proj\\STC-21-04_Java Middle_Online\\HelloWorld\\src\\";
+        String path = "./src/part1/lesson07/task02/";
         getFiles(path, n, size, words, probability);
 
     }

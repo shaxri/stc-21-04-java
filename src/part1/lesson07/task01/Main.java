@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Set<String> words = new TreeSet<>();
         try (BufferedReader br = new BufferedReader(new InputStreamReader(
-                new FileInputStream("D:\\Proj\\STC-21-04_Java Middle_Online\\HelloWorld\\src\\words.txt"), StandardCharsets.UTF_8))) {
+                new FileInputStream("./src/part1/lesson07/task01/words.txt"), StandardCharsets.UTF_8))) {
 
             String line;
 
@@ -23,7 +23,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        String fileName = "D:\\Proj\\STC-21-04_Java Middle_Online\\HelloWorld\\src\\output.txt";
+        String fileName = "./src/part1/lesson07/task01/output.txt";
 
         FileOutputStream fos = null;
         try {
