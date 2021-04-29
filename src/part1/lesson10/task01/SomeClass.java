@@ -1,0 +1,1 @@
+package part1.lesson10.task01;public class SomeClass implements Worker {    @Override    public void doWork() {System.out.println("Some cache is removed!!");}}
