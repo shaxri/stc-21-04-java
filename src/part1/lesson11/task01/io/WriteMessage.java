@@ -1,4 +1,4 @@
-package part1.lesson11.task01.message;
+package part1.lesson11.task01.io;
 
 import java.io.PrintWriter;
 import java.util.Scanner;

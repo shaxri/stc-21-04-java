@@ -1,8 +1,8 @@
 package part1.lesson11.task01.clients;
 
 
-import part1.lesson11.task01.message.ReadMessage;
-import part1.lesson11.task01.message.WriteMessage;
+import part1.lesson11.task01.io.ReadMessage;
+import part1.lesson11.task01.io.WriteMessage;
 
 import java.io.BufferedReader;
 import java.io.IOException;
