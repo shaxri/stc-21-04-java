@@ -1,0 +1,72 @@
+2021-06-27 12:47:56,633 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:47:56,730 DEBUG Main [main] Generate data 
+2021-06-27 12:47:56,730 INFO Main [main] Generate users 
+2021-06-27 12:47:56,730 INFO Main [main] Generate products 
+2021-06-27 12:47:56,730 INFO Main [main] Generate orders 
+2021-06-27 12:47:56,878 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 12:52:53,380 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:52:53,432 DEBUG Main [main] Generate data 
+2021-06-27 12:52:53,432 INFO Main [main] Generate users 
+2021-06-27 12:52:53,432 INFO Main [main] Generate products 
+2021-06-27 12:52:53,446 INFO Main [main] Generate orders 
+2021-06-27 12:52:53,568 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 12:53:21,057 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:53:21,094 DEBUG Main [main] Generate data 
+2021-06-27 12:53:21,094 INFO Main [main] Generate users 
+2021-06-27 12:53:21,094 INFO Main [main] Generate products 
+2021-06-27 12:53:21,094 INFO Main [main] Generate orders 
+2021-06-27 12:53:21,241 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 12:53:45,312 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:53:45,352 DEBUG Main [main] Generate data 
+2021-06-27 12:53:45,352 INFO Main [main] Generate users 
+2021-06-27 12:53:45,352 INFO Main [main] Generate products 
+2021-06-27 12:53:45,352 INFO Main [main] Generate orders 
+2021-06-27 12:53:45,478 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 12:57:35,716 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:57:35,750 DEBUG Main [main] Generate data 
+2021-06-27 12:57:35,750 INFO Main [main] Generate users 
+2021-06-27 12:57:35,750 INFO Main [main] Generate products 
+2021-06-27 12:57:35,750 INFO Main [main] Generate orders 
+2021-06-27 12:57:35,887 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 12:58:42,020 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:58:42,055 DEBUG Main [main] Generate data 
+2021-06-27 12:58:42,055 INFO Main [main] Generate users 
+2021-06-27 12:58:42,055 INFO Main [main] Generate products 
+2021-06-27 12:58:42,055 INFO Main [main] Generate orders 
+2021-06-27 12:58:42,198 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 12:59:50,311 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 12:59:50,383 DEBUG Main [main] Generate data 
+2021-06-27 12:59:50,384 INFO Main [main] Generate users 
+2021-06-27 12:59:50,384 INFO Main [main] Generate products 
+2021-06-27 12:59:50,384 INFO Main [main] Generate orders 
+2021-06-27 12:59:50,533 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 13:00:38,065 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 13:00:38,107 DEBUG Main [main] Generate data 
+2021-06-27 13:00:38,107 INFO Main [main] Generate users 
+2021-06-27 13:00:38,107 INFO Main [main] Generate products 
+2021-06-27 13:00:38,107 INFO Main [main] Generate orders 
+2021-06-27 13:00:38,256 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 13:03:02,183 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 13:03:02,238 DEBUG Main [main] Generate data 
+2021-06-27 13:03:02,238 INFO Main [main] Generate users 
+2021-06-27 13:03:02,238 INFO Main [main] Generate products 
+2021-06-27 13:03:02,238 INFO Main [main] Generate orders 
+2021-06-27 13:03:02,348 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 13:05:17,493 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 13:05:17,587 DEBUG Main [main] Generate data 
+2021-06-27 13:05:17,587 INFO Main [main] Generate users 
+2021-06-27 13:05:17,587 INFO Main [main] Generate products 
+2021-06-27 13:05:17,587 INFO Main [main] Generate orders 
+2021-06-27 13:05:38,000 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 13:06:14,989 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 13:06:15,031 DEBUG Main [main] Generate data 
+2021-06-27 13:06:15,031 INFO Main [main] Generate users 
+2021-06-27 13:06:15,031 INFO Main [main] Generate products 
+2021-06-27 13:06:15,031 INFO Main [main] Generate orders 
+2021-06-27 13:09:17,328 DEBUG Main [main] SetAutoCommit = true 
+2021-06-27 13:11:40,199 DEBUG Main [main] SetAutoCommit = false 
+2021-06-27 13:11:40,255 DEBUG Main [main] Generate data 
+2021-06-27 13:11:40,255 INFO Main [main] Generate users 
+2021-06-27 13:11:40,255 INFO Main [main] Generate products 
+2021-06-27 13:11:40,255 INFO Main [main] Generate orders 
+2021-06-27 13:11:49,305 DEBUG Main [main] SetAutoCommit = true 

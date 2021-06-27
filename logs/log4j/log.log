@@ -1,0 +1,298 @@
+2021-06-27 12:47:56,633 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:47:56,714 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:47:56,749 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=evolodenko, password=qwerty, name=ekaterina, email=evolodenko@mail.ru) 
+2021-06-27 12:47:56,768 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:47:56,769 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=iivanov, password=qwerty, name=ivan, email=iivanov@mail.ru) 
+2021-06-27 12:47:56,769 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:47:56,769 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,769 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,769 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,769 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,803 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=iivanov, password=qwerty, name=ivan, email=iivanov@mail.ru), product=Product(id=1, name=table, price=34.5, manufacturer=manufacturer1), status=CREATED, order_date=2021-04-20, delivery_information=Moscow) 
+2021-06-27 12:47:56,807 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,807 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=iivanov, password=qwerty, name=ivan, email=iivanov@mail.ru), product=Product(id=2, name=chair, price=21.9, manufacturer=manufacturer2), status=CREATED, order_date=2021-04-20, delivery_information=Moscow) 
+2021-06-27 12:47:56,807 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,807 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=evolodenko, password=qwerty, name=ekaterina, email=evolodenko@mail.ru), product=Product(id=2, name=chair, price=21.9, manufacturer=manufacturer2), status=CREATED, order_date=2021-04-21, delivery_information=Kazan) 
+2021-06-27 12:47:56,807 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:47:56,807 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:47:56,823 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:47:56,841 INFO D.DatabaseUtils [main] update Products set manufacturer = 'manufacturer2' where name = 'table' 
+2021-06-27 12:47:56,857 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:47:56,857 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:47:56,857 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:47:56,857 INFO D.DatabaseUtils [main] Commit somethingDo 
+2021-06-27 12:52:53,380 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:52:53,432 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:52:53,458 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,470 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,506 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=3921-04-09, delivery_information=Tashkent) 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=3921-04-10, delivery_information=Navoi) 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=3921-04-11, delivery_information=Innopolis) 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=3921-04-12, delivery_information=Innopolis) 
+2021-06-27 12:52:53,509 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:52:53,509 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:52:53,524 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:52:53,544 INFO D.DatabaseUtils [main] update Products set manufacturer = 'manufacturer2' where name = 'table' 
+2021-06-27 12:52:53,545 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:52:53,548 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:52:53,563 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:52:53,567 INFO D.DatabaseUtils [main] Commit somethingDo 
+2021-06-27 12:53:21,057 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:53:21,094 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:53:21,111 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 12:53:21,128 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:53:21,130 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 12:53:21,130 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:53:21,130 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,130 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,130 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,130 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 12:53:21,163 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:21,163 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:53:21,179 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:53:21,198 INFO D.DatabaseUtils [main] update Products set manufacturer = 'manufacturer2' where name = 'table' 
+2021-06-27 12:53:21,198 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:53:21,214 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:53:21,226 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:53:21,227 INFO D.DatabaseUtils [main] Commit somethingDo 
+2021-06-27 12:53:45,312 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:53:45,351 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:53:45,368 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 12:53:45,368 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:53:45,384 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 12:53:45,384 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:53:45,384 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,384 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,384 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,384 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,400 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 12:53:45,416 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:53:45,416 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:53:45,416 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:53:45,431 INFO D.DatabaseUtils [main] update Products set manufacturer = 'manufacturer2' where name = 'table' 
+2021-06-27 12:53:45,431 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:53:45,447 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:53:45,462 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:53:45,462 INFO D.DatabaseUtils [main] Commit somethingDo 
+2021-06-27 12:57:35,716 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:57:35,749 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:57:35,772 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,786 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 12:57:35,817 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:57:35,817 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:57:35,832 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:57:35,852 INFO D.DatabaseUtils [main] update Products set manufacturer = 'manufacturer2' where name = 'table' 
+2021-06-27 12:57:35,853 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:57:35,854 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:57:35,870 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:57:35,870 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 12:58:42,020 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:58:42,055 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:58:42,086 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,090 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 12:58:42,123 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:58:42,123 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:58:42,142 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:58:42,165 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Classic Wood Plastic' where name = 'table top' 
+2021-06-27 12:58:42,166 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:58:42,169 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:58:42,190 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:58:42,191 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 12:59:50,311 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 12:59:50,371 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 12:59:50,399 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 12:59:50,405 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:59:50,439 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 12:59:50,439 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 12:59:50,439 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,439 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,439 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,439 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,472 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 12:59:50,473 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 12:59:50,473 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 12:59:50,488 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 12:59:50,499 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Standard Wood Plastic' where name = 'table top' 
+2021-06-27 12:59:50,499 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 12:59:50,517 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 12:59:50,517 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 12:59:50,517 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 13:00:38,065 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 13:00:38,107 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 13:00:38,135 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 13:00:38,143 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:00:38,151 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 13:00:38,152 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:00:38,154 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,155 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,156 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,156 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,185 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 13:00:38,189 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,191 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 13:00:38,192 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,194 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 13:00:38,195 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,196 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 13:00:38,197 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:00:38,198 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 13:00:38,207 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 13:00:38,223 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Standard Wood Plastic' where name = 'table top' 
+2021-06-27 13:00:38,241 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 13:00:38,241 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 13:00:38,241 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 13:00:38,241 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 13:03:02,183 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 13:03:02,235 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 13:03:02,254 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 13:03:02,254 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:03:02,270 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 13:03:02,270 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:03:02,270 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,270 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,270 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,270 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 13:03:02,301 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:03:02,301 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 13:03:02,301 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 13:03:02,317 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Standard Wood Plastic' where name = 'table top' 
+2021-06-27 13:03:02,348 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 13:03:02,348 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 13:03:02,348 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 13:03:02,348 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 13:05:17,540 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 13:05:17,586 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 13:05:17,603 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 13:05:17,619 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:05:17,624 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 13:05:17,624 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:05:17,639 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,640 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,641 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,642 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,663 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 13:05:17,663 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,663 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 13:05:17,663 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,679 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 13:05:17,680 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,680 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 13:05:17,680 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:05:17,680 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 13:05:17,680 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 13:05:17,710 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Standard Wood Plastic' where name = 'table top' 
+2021-06-27 13:05:17,726 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 13:05:17,726 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 13:05:37,975 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 13:05:37,975 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 13:06:14,989 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 13:06:15,027 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 13:06:15,047 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,058 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,095 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 13:06:15,095 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,103 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 13:06:15,104 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,104 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 13:06:15,104 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,104 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 13:06:15,104 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:06:15,104 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 13:06:15,104 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 13:06:15,135 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Standard Wood Plastic' where name = 'table top' 
+2021-06-27 13:06:15,163 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 13:08:21,756 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 13:09:17,313 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 13:09:17,313 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
+2021-06-27 13:11:40,199 INFO D.DatabaseUtils [main] Start renewDatabase:  
+2021-06-27 13:11:40,245 INFO D.DatabaseUtils [main] Commit transaction renewDatabase 
+2021-06-27 13:11:40,275 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com) 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Start addInTableUser: User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com) 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Commit transaction addInTableUser 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,283 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=1, number=1, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=1, name=table top, price=34.5, manufacturer=Classic Wood Plastic), status=CREATED, order_date=2021-04-09, delivery_information=Tashkent) 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=2, number=2, user=User(id=2, login=alexey, password=12345678, name=alexey, email=alexey@gmail.com), product=Product(id=2, name=arm chair, price=21.9, manufacturer=El Porta), status=CREATED, order_date=2021-04-10, delivery_information=Navoi) 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=3, number=2, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=3, name=mug, price=1.7, manufacturer=IKEA), status=CREATED, order_date=2021-04-11, delivery_information=Innopolis) 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Start addInTableOrder: Order(id=4, number=1, user=User(id=1, login=shaxri, password=12345678, name=ergashevs, email=shahriyor.ergashev@gmail.com), product=Product(id=4, name=tea pot, price=0.3, manufacturer=Tefal), status=CREATED, order_date=2021-04-12, delivery_information=Innopolis) 
+2021-06-27 13:11:40,320 INFO D.DatabaseInsert [main] Commit transaction addInTableProduct 
+2021-06-27 13:11:40,320 INFO D.DatabaseUpdate [main] Start updateProductPrice:  
+2021-06-27 13:11:40,338 INFO D.DatabaseUpdate [main] Commit transaction updateProductPrice 
+2021-06-27 13:11:40,358 INFO D.DatabaseUtils [main] update Products set manufacturer = 'Standard Wood Plastic' where name = 'table top' 
+2021-06-27 13:11:40,374 INFO D.DatabaseUtils [main] Delete last row from ResultSet from query: select * from Products order by id 
+2021-06-27 13:11:49,290 INFO D.DatabaseUtils [main] Insert row to ResultSet from query: select * from Products order by id 
+2021-06-27 13:11:49,290 INFO D.DatabaseUtils [main] Rollback insert operation 
+2021-06-27 13:11:49,290 INFO D.DatabaseUtils [main] Commit doSomeTransactions 
